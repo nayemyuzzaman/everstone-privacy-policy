@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Everstone GBP Tracker — Privacy Policy</title>
+<style>
+  :root { --bg: #f8f9fa; --fg: #1a1a2e; --accent: #0f3460; --muted: #555; --border: #ddd; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.7; padding: 2rem 1rem; }
+  .container { max-width: 740px; margin: 0 auto; background: #fff; border-radius: 12px; padding: 2.5rem 2rem; box-shadow: 0 2px 12px rgba(0,0,0,.06); }
+  h1 { font-size: 1.6rem; color: var(--accent); margin-bottom: .3rem; }
+  .updated { color: var(--muted); font-size: .85rem; margin-bottom: 2rem; }
+  h2 { font-size: 1.15rem; color: var(--accent); margin: 1.8rem 0 .6rem; border-bottom: 1px solid var(--border); padding-bottom: .3rem; }
+  p, li { font-size: .95rem; margin-bottom: .6rem; }
+  ul { padding-left: 1.4rem; }
+  li { margin-bottom: .4rem; }
+  a { color: var(--accent); }
+  .contact { background: #f0f4f8; border-radius: 8px; padding: 1rem 1.2rem; margin-top: 1.5rem; }
+  @media (max-width: 600px) { .container { padding: 1.5rem 1rem; } h1 { font-size: 1.3rem; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>Privacy Policy</h1>
+<p class="updated">Everstone GBP Tracker — Last updated: October 20, 2026</p>
+
+<p>Everstone GBP Tracker ("the Extension") is a Chrome browser extension developed by Everstone Digital ("we", "us", "our"). This policy explains what data we collect, how we use it, and how we protect it.</p>
+
+<h2>1. Data We Collect</h2>
+<p>The Extension collects the following data:</p>
+<ul>
+  <li><strong>Google Account email address</strong> — used solely for authentication and access control. We verify whether your email is on the authorised user list.</li>
+  <li><strong>Business data from Google Maps and Google Search</strong> — business names, addresses, phone numbers, reviews, ratings, and ranking positions that are publicly visible on Google. This data is collected only when you actively use the Extension's audit features.</li>
+  <li><strong>Settings and preferences</strong> — your configuration choices (language, display options) stored locally in your browser.</li>
+  <li><strong>API keys you provide</strong> — if you enter your own API keys (e.g. for SerpAPI or Gemini), they are stored locally in your browser and are never transmitted to us.</li>
+</ul>
+
+<h2>2. Data We Do NOT Collect</h2>
+<ul>
+  <li>We do not collect browsing history, personal files, or any data outside of the Extension's functionality.</li>
+  <li>We do not collect financial information, payment details, or passwords.</li>
+  <li>We do not track your activity across websites.</li>
+  <li>We do not use cookies or tracking pixels.</li>
+</ul>
+
+<h2>3. How We Use Your Data</h2>
+<ul>
+  <li><strong>Authentication:</strong> Your Google email is checked against our authorised user list to grant or deny access.</li>
+  <li><strong>Business audits:</strong> Publicly available business data is analysed to generate SEO audit reports. These reports are stored locally in your browser or exported by you.</li>
+  <li><strong>API proxying:</strong> When shared API keys are configured by your organisation's administrator, audit requests may be routed through our server (Google Apps Script). The server adds the API key and returns the result. No data is logged or retained on the server beyond what is needed to complete the request.</li>
+</ul>
+
+<h2>4. Data Storage</h2>
+<ul>
+  <li><strong>Local storage:</strong> Settings, audit data, and API keys are stored in your browser using Chrome's <code>chrome.storage</code> API. This data stays on your device and is not synced or uploaded unless you explicitly export it.</li>
+  <li><strong>Server-side:</strong> The access-control server (hosted on Google Apps Script) stores only the list of authorised email addresses, their roles, and an activity log of logins. No business audit data is stored on the server.</li>
+</ul>
+
+<h2>5. Data Sharing</h2>
+<p>We do not sell, rent, or share your personal data with third parties. Data is transmitted only to:</p>
+<ul>
+  <li><strong>Google Identity Services</strong> — for authentication (Google sign-in).</li>
+  <li><strong>Third-party APIs</strong> — SerpAPI, Google PageSpeed Insights, and Google Gemini — only when you initiate an audit or AI feature. These services receive the business name/URL being audited, not your personal information. Each service has its own privacy policy.</li>
+</ul>
+
+<h2>6. Permissions Explained</h2>
+<ul>
+  <li><strong>storage / unlimitedStorage:</strong> Save audit data and settings locally in your browser.</li>
+  <li><strong>tabs:</strong> Open audit reports and manage the Extension's dashboard tab.</li>
+  <li><strong>scripting:</strong> Extract publicly visible business data from Google Maps and Search result pages.</li>
+  <li><strong>identity:</strong> Authenticate with your Google account for access control.</li>
+  <li><strong>alarms:</strong> Schedule periodic data checks and reminders.</li>
+  <li><strong>notifications:</strong> Show alerts when audits complete or require attention.</li>
+  <li><strong>clipboardWrite:</strong> Let you copy audit data or reports to your clipboard.</li>
+  <li><strong>contextMenus:</strong> Add right-click options for quick auditing.</li>
+  <li><strong>Host permissions (Google domains):</strong> Read publicly visible business data from Google Maps and Google Search to perform SEO audits.</li>
+</ul>
+
+<h2>7. Data Security</h2>
+<p>We use HTTPS for all network communications. API keys stored on the server are accessible only to authorised administrators. Access is controlled through Google account authentication with session verification.</p>
+
+<h2>8. Your Rights</h2>
+<p>You can:</p>
+<ul>
+  <li>View all data stored by the Extension by opening Chrome's Developer Tools → Application → Storage.</li>
+  <li>Delete all stored data by uninstalling the Extension or clearing its storage.</li>
+  <li>Request removal of your email from the authorised user list by contacting us.</li>
+</ul>
+
+<h2>9. Children's Privacy</h2>
+<p>The Extension is not intended for use by anyone under 13 years of age. We do not knowingly collect data from children.</p>
+
+<h2>10. Changes to This Policy</h2>
+<p>We may update this policy from time to time. Changes will be posted on this page with a new "Last updated" date. Continued use of the Extension after changes constitutes acceptance.</p>
+
+<div class="contact">
+  <h2 style="border:none;margin-top:0;">11. Contact Us</h2>
+  <p>If you have questions about this Privacy Policy, contact us at:</p>
+  <p><strong>Everstone Digital</strong><br>
+  Email: <a href="mailto:contact@everstonedigital.com">contact@everstonedigital.com</a></p>
+</div>
+
+</div>
+</body>
+</html>
